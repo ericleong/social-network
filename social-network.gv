@@ -255,4 +255,6 @@ graph friends {
 	"jeremy cimafonte" -- yefim [label="kpcb"]
 	"jeremy cimafonte" -- hallie [label="kpcb"]
 	yefim -- hallie [label="kpcb"]
+	aashiq -- biqi [label="duke", color="purple", fontcolor="purple"]
+	eric -- "jeremy cimafonte" [label="hackny", color="red", fontcolor="red"]
 }
