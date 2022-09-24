@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<head>
+  <title>social network</title>
+  <style>
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      margin-left: 1em;
+      margin-right: 1em;
+    }
+  </style>
+</head>
+<body>
+  <script src="//d3js.org/d3.v5.min.js"></script>
+  <script src="https://unpkg.com/@hpcc-js/wasm@0.3.11/dist/index.min.js"></script>
+  <script src="https://unpkg.com/d3-graphviz@3.0.5/build/d3-graphviz.js"></script>
+  <header>
+    <p>social network (<a href="//github.com/ericleong/social-network/blob/main/social-network.gv">view the source</a>)</p>
+  </header>
+  <div id="graph" style="text-align: center;"></div>
+  <script>
+    var graphviz = d3.select("#graph").graphviz()
+    .on("initEnd", render);
+
+    function render() {
+      fetch("social-network.gv")
+      .then((response) => response.text())
+      .then((data) => graphviz.renderDot(data))
+    };
+  </script>
+</body>
+</html>
