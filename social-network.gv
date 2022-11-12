@@ -284,4 +284,6 @@ graph friends {
 	mihir -- malone [label="twitter"]
 	"nick crawford" -- sabina [label="twitter"]
 	sabina -- "david bui" [label="dating", color="green", fontcolor="green"]
+	diana -- "lisa luo" [label="hackny", color="red", fontcolor="red"]
+	"matt condon" -- "lisa luo" [label="hackny", color="red", fontcolor="red"]
 }
