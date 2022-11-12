@@ -283,4 +283,5 @@ graph friends {
 	malone -- "lisa luo" [label="interlace"]
 	mihir -- malone [label="twitter"]
 	"nick crawford" -- sabina [label="twitter"]
+	sabina -- "david bui" [label="dating", color="green", fontcolor="green"]
 }
