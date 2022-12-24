@@ -1,4 +1,5 @@
 graph friends {
+	size="12,12"
 	"cheryl wu" [style=filled, fillcolor="lightgray"]
 	eric -- aashiq [label="great neck south", color="blue", fontcolor="blue"]
 	aashiq -- kari [label="duke, married", color="green", fontcolor="green"]
@@ -261,7 +262,7 @@ graph friends {
 	"david lu" -- "ashley qian" [label="high school"]
 	aashiq -- "david bui" [label="twitter"]
 	"dennis li" -- "raymond zhong" [label="sf", color="gold", fontcolor="gold"]
-	"clara wu" -- "raymond zhong" [label="interact"]
+	clara -- "raymond zhong" [label="interact"]
 	"sami smith" -- "david bui" [label="sf", color="gold", fontcolor="gold"]
 	eric -- zlata [label="cooper union", color="maroon", fontcolor="maroon"]
 	eugene -- zlata [label="nyu poly"]
@@ -286,4 +287,9 @@ graph friends {
 	sabina -- "david bui" [label="dating", color="green", fontcolor="green"]
 	diana -- "lisa luo" [label="hackny", color="red", fontcolor="red"]
 	"matt condon" -- "lisa luo" [label="hackny", color="red", fontcolor="red"]
+	eric -- sean [label="brother"]
+	eric -- eve [label="great neck south", color="blue", fontcolor="blue"]
+	sean -- eve [label="great neck south", color="blue", fontcolor="blue"]
+	"kevin schultz" -- eric [label="nyc android community"]
+	"kevin schultz" -- eve [label="facebook"]
 }
