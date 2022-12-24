@@ -289,6 +289,7 @@ graph friends {
 	eric -- sean [label="brother"]
 	eric -- eve [label="great neck south", color="blue", fontcolor="blue"]
 	sean -- eve [label="great neck south", color="blue", fontcolor="blue"]
+	aashiq -- eve [label="great neck south", color="blue", fontcolor="blue"]
 	"kevin schultz" -- eric [label="nyc android community"]
 	"kevin schultz" -- eve [label="facebook"]
 }
