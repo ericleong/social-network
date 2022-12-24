@@ -1,5 +1,4 @@
 graph friends {
-	size="12,12"
 	"cheryl wu" [style=filled, fillcolor="lightgray"]
 	eric -- aashiq [label="great neck south", color="blue", fontcolor="blue"]
 	aashiq -- kari [label="duke, married", color="green", fontcolor="green"]
