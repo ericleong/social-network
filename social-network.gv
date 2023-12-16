@@ -292,4 +292,5 @@ graph friends {
 	aashiq -- eve [label="great neck south", color="blue", fontcolor="blue"]
 	"kevin schultz" -- eric [label="nyc android community"]
 	"kevin schultz" -- eve [label="facebook"]
+	"dan gorelick" -- eric [label="hackny", color="red", fontcolor="red"]
 }
