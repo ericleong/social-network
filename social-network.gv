@@ -61,10 +61,10 @@ graph friends {
 	eric -- kristin [label="tumblr", color="navy", fontcolor="navy"]
 	"michael lapadula" -- kristin [label="tumblr", color="navy", fontcolor="navy"]
 	eric -- tamar [label="tumblr", color="navy", fontcolor="navy"]
-	tamar -- ruthie [label="sibilings"]
+	tamar -- ruthie [label="siblings"]
 	margaret -- ruthie [label="?"]
 	margaret -- gino [label="collegeish?"]
-	ruthie -- yoni [label="sibilings"]
+	ruthie -- yoni [label="siblings"]
 	tiana -- gino [label="killer queen"]
 	tamar -- kristin [label="tumblr", color="navy", fontcolor="navy"]
 	walter -- kristin [label="mit", color="magenta", fontcolor="magenta"]
@@ -294,6 +294,11 @@ graph friends {
 	"kevin schultz" -- eve [label="facebook"]
 	"dan gorelick" -- eric [label="hackny", color="red", fontcolor="red"]
 	"dan gorelick" -- jackie liu [label="livecode"]
-        yoni -- grace
-        grace -- em
+	yoni -- grace [label="hunter college high school"]
+	grace -- em  [label="cmu", color="chocolate", fontcolor="chocolate"]
+        "dennis li" -- cassie [label="dating", color="green", fontcolor="green"]
+        "andrew badr" -- cassie [label="crypto"]
+        "andrew badr" -- tamar [label="writing"]
+        brent -- "anthony adal" [label="high school"]
+        eric -- "anthony adal"  [label="cooper union", color="maroon", fontcolor="maroon"]
 }
