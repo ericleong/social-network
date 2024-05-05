@@ -294,4 +294,6 @@ graph friends {
 	"kevin schultz" -- eve [label="facebook"]
 	"dan gorelick" -- eric [label="hackny", color="red", fontcolor="red"]
 	"dan gorelick" -- jackie liu [label="livecode"]
+        yoni -- grace
+        grace -- em
 }
