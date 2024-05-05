@@ -296,7 +296,7 @@ graph friends {
 	"jackie liu" -- suzanne [label="itp"]
 	"jackie liu" -- walter [label="mit", color="magenta", fontcolor="magenta"]
 	"dan gorelick" -- eric [label="hackny", color="red", fontcolor="red"]
-	"dan gorelick" -- jackie liu [label="livecode"]
+	"dan gorelick" -- "jackie liu" [label="livecode"]
 	yoni -- grace [label="hunter college high school"]
 	grace -- em  [label="cmu", color="chocolate", fontcolor="chocolate"]
 	"dennis li" -- cassie [label="dating", color="green", fontcolor="green"]
@@ -304,4 +304,6 @@ graph friends {
 	"andrew badr" -- tamar [label="writing"]
 	brent -- "anthony adal" [label="high school"]
 	eric -- "anthony adal"  [label="cooper union", color="maroon", fontcolor="maroon"]
+	cameron -- "jackie liu" [label="livecode"]
+	cameron -- kari [label="brewminaries"]
 }
