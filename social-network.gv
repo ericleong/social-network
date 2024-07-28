@@ -316,4 +316,5 @@ graph friends {
 	"nick crawford" -- em [label="twitter", color="dodgerblue", fontcolor="dodgerblue"]
 	"dan gorelick" -- cameron [label="livecode", color="hotpink", fontcolor="hotpink"]
 	aashiq -- ryan [label="duke", color="purple", fontcolor="purple"]
+	catherine -- "steve gattuso" [label="hackny", color="red", fontcolor="red"]
 }
