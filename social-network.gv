@@ -306,4 +306,9 @@ graph friends {
 	eric -- "anthony adal"  [label="cooper union", color="maroon", fontcolor="maroon"]
 	cameron -- "jackie liu" [label="livecode"]
 	cameron -- kari [label="brewminaries"]
+	eric -- catherine [label="hackny", color="red", fontcolor="red"]
+	rod -- catherine [label="google"]
+	rod -- tiana [label="killer queen"]
+	catherine -- tamar [label="neighbors"]
+	walter -- catherine [label="hackny", color="red", fontcolor="red"]
 }
