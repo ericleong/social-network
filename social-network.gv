@@ -323,4 +323,5 @@ graph friends {
 	eric -- "talia stocks" [label="cooper union", color="maroon", fontcolor="maroon"]
 	"talia stocks" -- "dan gitzel" [label="cooper union", color="maroon", fontcolor="maroon"]
 	"talia stocks" -- sharang [label="cooper union", color="maroon", fontcolor="maroon"]
+	"dennis tsang" -- christine [label="cmu", color="chocolate", fontcolor="chocolate"]
 }
