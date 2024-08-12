@@ -298,7 +298,7 @@ graph friends {
 	"dan gorelick" -- eric [label="hackny", color="red", fontcolor="red"]
 	"dan gorelick" -- "jackie liu" [label="livecode", color="hotpink", fontcolor="hotpink"]
 	yoni -- grace [label="hunter college high school"]
-	grace -- em  [label="cmu", color="chocolate", fontcolor="chocolate"]
+	grace -- em [label="cmu", color="chocolate", fontcolor="chocolate"]
 	"dennis li" -- cassie [label="dating", color="green", fontcolor="green"]
 	"andrew badr" -- cassie [label="crypto"]
 	"andrew badr" -- tamar [label="writing"]
