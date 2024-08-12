@@ -286,7 +286,7 @@ graph friends {
 	sabina -- "david bui" [label="dating", color="green", fontcolor="green"]
 	diana -- "lisa luo" [label="hackny", color="red", fontcolor="red"]
 	"matt condon" -- "lisa luo" [label="hackny", color="red", fontcolor="red"]
-	eric -- sean [label="brother"]
+	eric -- sean [label="brother", color="chartreuse", fontcolor="chartreuse"]
 	eric -- eve [label="great neck south", color="blue", fontcolor="blue"]
 	sean -- eve [label="great neck south", color="blue", fontcolor="blue"]
 	aashiq -- eve [label="great neck south", color="blue", fontcolor="blue"]
