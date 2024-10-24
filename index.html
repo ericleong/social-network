@@ -16,22 +16,21 @@
   </style>
 </head>
 <body>
-  <script src="//d3js.org/d3.v7.min.js"></script>
-  <script src="https://unpkg.com/@hpcc-js/wasm@2.20.0/dist/graphviz.umd.js"></script>
-  <script src="https://unpkg.com/d3-graphviz@5.6.0/build/d3-graphviz.js"></script>
   <header>
     <p>social network (<a href="//github.com/ericleong/social-network/blob/main/social-network.gv">view the source</a>)</p>
   </header>
   <div id="graph" style="text-align: center;"></div>
-  <script>
-    var graphviz = d3.select("#graph").graphviz()
-    .on("initEnd", render);
+  <script type="module">
+    import { instance } from "https://unpkg.com/@viz-js/viz@3.9.0/lib/viz-standalone.mjs";
 
-    function render() {
+    instance().then(viz => {
       fetch("social-network.gv")
       .then((response) => response.text())
-      .then((data) => graphviz.renderDot(data))
-    };
+      .then((data) => {
+        const svg = viz.renderSVGElement(data);
+        document.getElementById("graph").appendChild(svg);
+      });      
+    });
   </script>
 </body>
 </html>
