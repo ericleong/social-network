@@ -292,7 +292,7 @@ graph friends {
 	aashiq -- eve [label="great neck south", color="blue", fontcolor="blue"]
 	"kevin schultz" -- eric [label="nyc android community"]
 	"kevin schultz" -- eve [label="facebook"]
-	suzanne -- em [label="cmu?"]
+	suzanne -- em [label="persona"]
 	"jackie liu" -- suzanne [label="itp"]
 	"jackie liu" -- walter [label="mit", color="magenta", fontcolor="magenta"]
 	"dan gorelick" -- eric [label="hackny", color="red", fontcolor="red"]
