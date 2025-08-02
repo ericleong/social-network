@@ -325,4 +325,7 @@ graph friends {
 	"talia stocks" -- sharang [label="cooper union", color="maroon", fontcolor="maroon"]
 	"dennis tsang" -- christine [label="cmu", color="chocolate", fontcolor="chocolate"]
 	"jackie liu" -- gitzel [label="high school"]
+	kathy -- "chris wiggins" [label="columbia"]
+	"chris wiggins" -- eric [label="hackny", color="red", fontcolor="red"]
+	kathy -- henry [label="ceramics"]
 }
