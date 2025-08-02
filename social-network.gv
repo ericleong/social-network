@@ -328,4 +328,6 @@ graph friends {
 	kathy -- "chris wiggins" [label="columbia"]
 	"chris wiggins" -- eric [label="hackny", color="red", fontcolor="red"]
 	kathy -- henry [label="ceramics"]
+	henry -- "jackie liu" [label="livecode"]
+	henry -- eric [label="cooper union", color="maroon", fontcolor="maroon"]
 }
