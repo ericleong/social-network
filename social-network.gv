@@ -334,4 +334,5 @@ graph friends {
     "matt danneberg" -- eric
     "hana carpenter" -- cyle
     eric -- cyle
+    "hana carpenter" -- walter
 }
