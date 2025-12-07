@@ -330,4 +330,8 @@ graph friends {
 	kathy -- henry [label="ceramics"]
 	henry -- "jackie liu" [label="livecode"]
 	henry -- eric [label="cooper union", color="maroon", fontcolor="maroon"]
+    "matt danneberg" -- "hana carpenter"
+    "matt danneberg" -- eric
+    "hana carpenter" -- cyle
+    eric -- cyle
 }
