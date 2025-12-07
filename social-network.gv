@@ -335,4 +335,6 @@ graph friends {
     "hana carpenter" -- cyle
     eric -- cyle
     "hana carpenter" -- walter
+    adam -- walter
+    adam -- jacob
 }
