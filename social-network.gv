@@ -336,9 +336,11 @@ graph friends {
     eric -- cyle
     "hana carpenter" -- walter
     adam -- walter
-    adam -- jacob
+    adam -- jacob [label="northeastern"]
     "alyssa" -- moises
     "moises" -- "manny404"
     "manny404" -- "malone"
-    "alyssa" -- eric
+    "alyssa" -- eric [label="cooper union", color="maroon", fontcolor="maroon"]
+    tiana -- morgan [label="nyu"]
+    morgan -- bahar [label="party?"]
 }
